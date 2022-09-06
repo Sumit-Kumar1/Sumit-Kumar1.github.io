@@ -11,11 +11,11 @@ export default function Home() {
         <meta name="description" content="My Resume website created using Next JS and Tailwind CSS" />
       </Head>
 
-        <Navbar/>
-        <main className={"box-content border-2 justify-items-center m-24 py-6 px-24 justify-items-center"}>
-            <p className={"fixed bottom-1/2 -rotate-90 font-thin right-0 z-10"}>@Copyrights to Sumit Kumar</p>
-          <ContactMe/>
-          {/*<Skill/>*/}
+      <Navbar />
+      <main className={"box-content justify-items-center m-24 py-6 px-24 dark:text-[#e8e8e8]"}>
+        <p className={"fixed bottom-1/2 -rotate-90 font-thin right-0 z-10"}>@Copyrights to Sumit Kumar</p>
+        <Skill/>
+        {/* <ContactMe /> */}
       </main>
     </div>
   )
