@@ -1,7 +1,7 @@
 export default function ContactMe() {
     return (
         <div>
-            <h1 className="text-3xl pb-16 text-center font-light italic font-bold">
+            <h1 className="text-3xl pb-16 text-center italic font-bold">
                 Don&apos;t Hesitate to Contact Me!
             </h1>
             <div className="grid grid-cols-2 justify-center justify-items-center ">
