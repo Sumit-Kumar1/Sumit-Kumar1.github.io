@@ -7,20 +7,20 @@ import {AiFillApple} from "react-icons/ai";
 function Navbar(){
     return(
         <nav className={"pt-5 flex justify-around"}>
-            <AiFillApple size={50}/>
-            <ul className={"flex gap-x-5 pt-2 text-xl font-light font-sans"}>
-                <li >Home</li>
+            <AiFillApple size={50} className={"hover:cursor-pointer"}/>
+            <ul className={"flex gap-x-5 pt-2 text-md font-bold font-sans hover:cursor-pointer"}>
+                <li>Home</li>
                 <li >Skills</li>
                 <li >Projects</li>
                 <li >Contact Me</li>
             </ul>
-            <ul className={"flex gap-4 pt-2"}>
+            <ul className={"flex gap-4 pt-2 hover:cursor-pointer"}>
                 <li>
                     <SiKaggle size={32}></SiKaggle>
                     <Link href="https://www.kaggle.com/sumit1kumar"><a></a></Link>
                 </li>
                 <li>
-                    <FaGithub size={25}/>
+                    <FaGithub size={25}></FaGithub>
                     <Link href="https://github.com/Sumit-Kumar1"><a></a></Link>
                 </li>
                 <li >
