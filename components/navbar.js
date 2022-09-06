@@ -10,9 +10,9 @@ function Navbar(){
             <AiFillApple size={50} className={"hover:cursor-pointer"}/>
             <ul className={"flex gap-x-5 pt-2 text-md font-bold font-sans hover:cursor-pointer"}>
                 <li>Home</li>
-                <li >Skills</li>
-                <li >Projects</li>
-                <li >Contact Me</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Contact Me</li>
             </ul>
             <ul className={"flex gap-4 pt-2 hover:cursor-pointer"}>
                 <li>
