@@ -14,10 +14,10 @@ export default function Home() {
 
       <Navbar />
       <main className={"box-content justify-items-center m-24 py-6 px-24 dark:text-[#e8e8e8]"}>
-        <p className={"fixed bottom-1/2 -rotate-90 font-thin right-0 z-10"}>@Copyrights to Sumit Kumar</p>
-        <HomeMain/>
+          <p className={"fixed bottom-1/2 -rotate-90 font-thin z-1 -right-20"}>@Copyrights to Sumit Kumar</p>
+        {/*<HomeMain/>*/}
         {/* <Skill/> */}
-        {/* <ContactMe /> */}
+         <ContactMe />
       </main>
     </div>
   )
