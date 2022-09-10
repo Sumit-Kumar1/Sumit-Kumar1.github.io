@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import ContactMe from "../components/contactMe";
 import Skill from "../components/skills";
 import HomeMain from '../components/home';
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
       <main className={"box-content justify-items-center m-24 py-6 px-24 dark:text-[#e8e8e8]"}>
           <p className={"fixed bottom-1/2 -rotate-90 font-thin z-1 -right-20"}>@Copyrights to Sumit Kumar</p>
         {/*<HomeMain/>*/}
-        {/* <Skill/> */}
-         <ContactMe />
+         <Skill/>
+        {/* <ContactMe />*/}
+        {/*  <Projects/>*/}
       </main>
     </div>
   )
