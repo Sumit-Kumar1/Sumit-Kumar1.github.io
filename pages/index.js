@@ -5,9 +5,7 @@ import ContactMe from "../components/contactMe";
 import Skill from "../components/skills";
 import HomeMain from '../components/home';
 import Projects from "../components/Projects";
-import { SiCodechef, SiKaggle, SiLeetcode } from "react-icons/si";
 import Link from "next/link";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -16,15 +14,14 @@ export default function Home() {
         <title>My Portfolio</title>
         <meta name="description" content="My Resume website created using Next JS and Tailwind CSS" />
       </Head>
-      <ProfileSideBar />
       <Navbar />
       <main className={"box-content justify-items-center m-24 py-6 px-24 dark:text-[#e8e8e8]"}>
-
-        <p className={"fixed bottom-1/2 -rotate-90 font-thin z-1 -right-20"}>@Copyrights to Sumit Kumar</p>
-        {/*<HomeMain/>*/}
-        <Skill />
-        {/* <ContactMe />*/}
-        {/*  <Projects/>*/}
+        <ProfileSideBar />
+        <p className={"fixed bottom-[47.2%] -rotate-90 z-1 -right-20 justify-items-center"}>@Copyrights to Sumit Kumar</p>
+        {/* <HomeMain /> */}
+        {/* <Skill /> */}
+        <ContactMe />
+        {/* <Projects/> */}
       </main>
     </div>
   )

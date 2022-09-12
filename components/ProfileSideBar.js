@@ -4,7 +4,7 @@ import {FaGithub, FaLinkedin} from "react-icons/fa";
 
 export default function ProfileSideBar(){
     return (
-        <ul className={"fixed z-10 flex flex-col hover:cursor-pointer left-[5%] p-5 h-full justify-center gap-10 border-2"}>
+        <ul className={"fixed z-10 flex flex-col hover:cursor-pointer left-[1%] gap-7 h-full justify-items-center -bottom-[37%]"}>
             <li>
                 <Link href="https://www.kaggle.com/sumit1kumar"><a target={"_blank"}><SiKaggle size={32}></SiKaggle></a></Link>
             </li>
@@ -21,5 +21,6 @@ export default function ProfileSideBar(){
                 <Link href={"https://www.codechef.com/users/dark_blood"}><a target={"_blank"}><SiCodechef size={25}></SiCodechef></a></Link>
             </li>
         </ul>
+        
     );
 }
