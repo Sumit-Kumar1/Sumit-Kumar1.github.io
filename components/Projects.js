@@ -1,6 +1,5 @@
-export default  function Projects()
-{
-    return(
+export default function Projects() {
+    return (
         <div className={"border-2"}>
             <nav>
                 <ul>

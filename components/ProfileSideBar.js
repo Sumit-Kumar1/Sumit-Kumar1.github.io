@@ -1,8 +1,8 @@
-import {SiCodechef, SiKaggle, SiLeetcode} from "react-icons/si";
+import { SiCodechef, SiKaggle, SiLeetcode } from "react-icons/si";
 import Link from "next/link";
-import {FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-export default function ProfileSideBar(){
+export default function ProfileSideBar() {
     return (
         <ul className={"fixed z-10 flex flex-col hover:cursor-pointer left-[1%] gap-7 h-full justify-items-center -bottom-[37%]"}>
             <li>
@@ -21,6 +21,6 @@ export default function ProfileSideBar(){
                 <Link href={"https://www.codechef.com/users/dark_blood"}><a target={"_blank"}><SiCodechef size={25}></SiCodechef></a></Link>
             </li>
         </ul>
-        
+
     );
 }

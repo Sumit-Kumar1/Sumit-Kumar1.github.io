@@ -45,7 +45,7 @@ export default function ContactMe() {
                     />
                     <button
                         className={
-                            "xs:w-full md:w-1/2 xl:w-1/4 border-2 rounded-full p-3 dark:hover:bg-[#1d1d1d] hover:bg-green-400 mx-auto hover:font-bold hover:cursor-pointer"
+                            "xs:w-full md:w-1/4 xl:w-1/3 border-2 rounded-2xl p-3 dark:hover:bg-[#1d1d1d] hover:bg-green-400 mx-auto hover:font-bold hover:cursor-pointer"
                         }
                     >
                         Send Now
