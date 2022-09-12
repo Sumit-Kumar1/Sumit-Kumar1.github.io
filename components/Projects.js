@@ -3,7 +3,7 @@ export default function Projects() {
         <div className={"border-2"}>
             <nav>
                 <ul>
-                    <li>Machine Learning</li>
+                    <li className="hover:capitalize">Machine Learning</li>
                     <li>Game Development</li>
                     <li> </li>
                 </ul>
