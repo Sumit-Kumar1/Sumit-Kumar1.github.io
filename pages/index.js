@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import Navbar from '../components/navbar';
 import ProfileSideBar from "../components/ProfileSideBar";
 import ContactMe from "../components/contactMe";
 import Skill from "../components/skills";
