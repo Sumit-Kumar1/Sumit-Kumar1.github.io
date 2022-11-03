@@ -11,7 +11,7 @@ export default function HomeMain() {
                 <button className="rounded-xl mt-8 p-3 dark:bg-green-800 font-medium  bg-green-400 text-white hover:bg-green-400">Download Resume</button>
             </div>
             <div className="">
-                <Image src={myImg} width={550} height={550} alt={"MyPic"}></Image>
+                <Image src={myImg} width={550} height={550} alt={"My Pic"}></Image>
             </div>
         </div>
     );
