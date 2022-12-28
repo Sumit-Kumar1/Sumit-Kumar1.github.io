@@ -11,8 +11,8 @@
   "dependencies": {
     "jshint": "^2.13.6",
     "next": "13.1.1",
-    "react": "18.3.0-next-fecc288b7-20221025",
-    "react-dom": "18.3.0-next-fecc288b7-20221025",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-icons": "^4.7.1"
   },
   "devDependencies": {
