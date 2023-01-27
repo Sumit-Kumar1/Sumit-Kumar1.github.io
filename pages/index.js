@@ -15,7 +15,7 @@ export default function Home() {
       }
     >
       <Head>
-        <title>My Portfolio</title>
+        <title>My Resume Website</title>
         <meta
           name="description"
           content="My Resume website created using Next JS and Tailwind CSS"
@@ -28,16 +28,16 @@ export default function Home() {
           }
         >
           <li>
-            <button onClick={() => setClick(0)}>Home</button>
+            <button>Home</button>
           </li>
           <li>
-            <button onClick={() => setClick(1)}>Skills</button>
+            <button>Skills</button>
           </li>
           <li>
-            <button onClick={() => setClick(2)}>Projects</button>
+            <button>Projects</button>
           </li>
           <li>
-            <button onClick={() => setClick(3)}>Contact Me</button>
+            <button>Contact Me</button>
           </li>
         </ul>
       </nav>
@@ -54,18 +54,10 @@ export default function Home() {
         >
           @Copyrights to Sumit Kumar (2022)
         </p>
-        {/* Logically rendering component based on state of click count */}
-        {click == 0 ? (
-          <HomeMain></HomeMain>
-        ) : click == 1 ? (
-          <Skill></Skill>
-        ) : click == 2 ? (
-          <Projects></Projects>
-        ) : click == 3 ? (
-          <ContactMe></ContactMe>
-        ) : (
-          <HomeMain></HomeMain>
-        )}
+        <HomeMain></HomeMain>
+        <Skill></Skill>
+        <Projects></Projects>
+        <ContactMe></ContactMe>
       </main>
     </div>
   );
