@@ -1,6 +1,6 @@
 export default function contact() {
     return (
-            <div className="grid md:grid-cols-2 justify-center justify-items-center p-28 sm:w-full sm:grid-cols-1 text-center gap-10">
+            <div className="grid mobile:grid-cols-1 sm:grid-cols-2 justify-center justify-items-center p-28 w-full text-center gap-10">
                 {/* Personal info part */}
                 <div className="flex flex-col gap-4 font-mono ">
                     {/*<Image src={"./public/favicon.ico"} alt={"MyImage"} height={100} width={100}/>*/}

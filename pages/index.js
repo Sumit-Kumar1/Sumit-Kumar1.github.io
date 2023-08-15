@@ -13,7 +13,7 @@ export default function Home() {
           content="My Resume website created using Next JS and Tailwind CSS"
         />
       </Head>
-      <div className="flex gap-20 justify-center">
+      <div className="flex mobile:flex-col-reverse md:flex-row mobile:gap-0 md:gap-20 justify-center text-center">
             <div className="flex-1 pt-32">
                 <p className="text-green-400 text-2xl">HELLO!</p>
                 <p className="py-5 text-4xl font-bold">I AM SUMIT KUMAR</p>
