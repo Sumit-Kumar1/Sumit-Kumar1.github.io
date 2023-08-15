@@ -4,7 +4,7 @@ import Navbar from "./navbar"
 export default function Layout({children }) {
     return (
         <div className={
-            "h-screen dark:bg-[#282828] bg-white dark:text-white justify-center align-middle justify-items-center"
+            "min-w-screen min-h-screen dark:bg-[#282828] bg-white dark:text-white justify-center align-middle justify-items-center"
           }>
             <Navbar />
             <ProfileSideBar />
