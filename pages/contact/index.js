@@ -1,4 +1,4 @@
-export default function ContactMe() {
+export default function contact() {
     return (
         <div>
             <h1 className="text-3xl pb-16 text-center italic font-bold">

@@ -10,16 +10,16 @@ export default function Navbar() {
           }
         >
           <li>
-            <Link href="/home.js">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/skills.js">Skills</Link>
+            <Link href="/skills">Skills</Link>
           </li>
           <li>
-            <Link href="/projects.js">Projects</Link>
+            <Link href="/projects">Projects</Link>
           </li>
           <li>
-            <Link href="/contact.js">Contact Me</Link>
+            <Link href="/contact">Contact Me</Link>
           </li>
         </ul>
       </nav>

@@ -1,5 +1,5 @@
 
-export default function Skill() {
+export default function Skills() {
     return (
         <div>
             <p className={"font-bold text-3xl italic font-mono pb-2"}>I am skilled in wide range of...</p>
