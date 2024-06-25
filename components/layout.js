@@ -9,10 +9,6 @@ export default function Layout({children }) {
             <Navbar />
             <ProfileSideBar />
             <main>
-                <p className={"fixed bottom-[47.2%] -rotate-90 z-1 -right-20 justify-items-center"}
-                >
-                    @Copyrights to Sumit Kumar (2022)
-                </p>
                 {children}
             </main>
         </div>

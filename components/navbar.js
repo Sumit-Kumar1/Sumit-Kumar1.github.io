@@ -3,25 +3,11 @@ import React from "react";
 
 export default function Navbar() {
   return (
-      <nav>
-        <ul
-          className={
-            "flex gap-x-5 text-2xl font-light font-sans hover:cursor-pointer justify-center pt-10"
-          }
-        >
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/skills">Skills</Link>
-          </li>
-          <li>
-            <Link href="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link href="/contact">Contact Me</Link>
-          </li>
-        </ul>
-      </nav>
+    <nav className="navbar bg-base-10 text-accent text-center justify-center">
+      <Link href="/" className="btn btn-ghost text-2xl link link-hover">Home</Link>
+      <Link href="/skills" className="btn btn-ghost text-2xl link link-hover">Skills</Link>
+      <Link href="/projects" className="btn btn-ghost text-2xl link link-hover">Projects</Link>
+      <Link href="/contact" className="btn btn-ghost text-2xl link link-hover">Contact Me</Link>
+    </nav>
   );
 }
