@@ -1,21 +1,18 @@
 import Card from "../../components/card"
-import {TbBrandCpp, TbBrandGolang, TbBrandCSharp, TbBrandPython, TbBrandMysql} from "react-icons/tb"
+import { TbBrandCpp, TbBrandGolang, TbBrandCSharp, TbBrandPython, TbBrandMysql } from "react-icons/tb"
 
 export default function Skills() {
   return (
-    <div className="flex flex-col m-auto p-auto md:w-7/12">
-      <h1 className="flex py-5 lg:px-20 md:px-10 px-5 lg:mx-40 md:mx-20 mx-5 font-bold text-2xl text-center">
+    <div className="flex flex-col items-center mt-5 m-2 -mb-1">
+      <h1 className="text-2xl text-center text-primary">
         Programming Languages
       </h1>
-      {/* cards carousel*/}
-      <div class="flex overflow-x-scroll pb-10">
-        <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10">
-          <Card Text="GO" icon={<TbBrandGolang size={128}/>} Desc="Experienced at professional level"/>
-          <Card Text="CPP" Img={<TbBrandCpp size={64}/>} Desc="Experienced Project Level"/>
-          <Card Text="C#" Img={<TbBrandCSharp size={128}/>} Desc="Experienced Project Level"/>
-          <Card Text="Python" Img={<TbBrandPython size={128}/>} Desc="Experienced Project Level"/>
-          <Card Text="SQL" Img={<TbBrandMysql size={128}/>} Desc="Experienced Project Level"/>
-        </div>
+      <div className="flex mobile:flex-col flex-row gap-5">
+        <Card text="GO" icon={<TbBrandGolang size={64} />} percent="80" expLevel="Advance Industury Level" exp="2 year" />
+        <Card text="CPP" icon={<TbBrandCpp size={64} />} percent="70" expLevel="Project Level" exp="3 year" />
+        <Card text="C#" icon={<TbBrandCSharp size={64} />} percent="50" expLevel="Project Level" exp="1 year"/>
+        <Card text="Python" icon={<TbBrandPython size={64} />} percent="75" expLevel="Project Level" exp="2 year"/>
+        <Card text="MySQL" icon={<TbBrandMysql size={64} />} percent="85" expLevel="Project Level" exp="2 year"/>
       </div>
     </div>
   );
