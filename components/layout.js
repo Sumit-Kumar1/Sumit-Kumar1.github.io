@@ -1,4 +1,4 @@
-import ProfileSideBar from "./ProfileSideBar"
+import ProfileSideBar from "./profileBar"
 import Navbar from "./navbar"
 
 export default function Layout({children }) {

@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Profiles() {
     return (
-        <ul className={"fixed z-10 flex hover:cursor-pointer gap-7 h-full -bottom-[95%] w-full justify-center text-accent"}>
+        <ul className={"fixed z-10 flex hover:cursor-pointer gap-7 w-full justify-center text-accent shadow-md bg-base-100 p-3 -bottom-0"}>
             <li>
                 <Link href="https://www.kaggle.com/sumit1kumar"><SiKaggle size={32}></SiKaggle></Link>
             </li>

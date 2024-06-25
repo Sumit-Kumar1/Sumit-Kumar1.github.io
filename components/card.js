@@ -1,6 +1,6 @@
 export default function Card(props) {
   return (
-    <div className="card card-side bg-base-10 shadow-xl p-2">
+    <div className="card card-side bg-base-10 shadow-xl p-2 w-auto btn-outline hover:glass hover:md:w-[25%] ease-in">
       <p className="radial-progress m-auto text-accent" style={{"--value":props.percent}} role="progress">
         <span className="text-2xl stat-value">{props.percent}%</span>
       </p>
